@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#f00</color>
+    <color name="grey">#d1caca</color>
+
+    <!-- 环形进度条 -->
+    <color name="circle_color">#22e2da</color>
+    <color name="circle_text_color">#636363</color>
+    <color name="circle_bg_color">#b2000000</color>
+</resources>

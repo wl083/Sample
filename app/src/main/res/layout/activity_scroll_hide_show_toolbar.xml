@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="隐藏显示"
+            android:padding="10dp"
+            />
+
+    </ScrollView>
+
+    <TextView
+        android:padding="3dp"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#f00"
+        android:textSize="25sp"
+        android:background="#e6c912"
+        android:text="显示还是隐藏呢"
+        ></TextView>
+</RelativeLayout>

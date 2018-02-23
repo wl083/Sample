@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="drawable" name="transparent">#00000000</item>
+	<item type="drawable" name="white">#ffffffff</item>
+	<item type="drawable" name="menu_text_normal">#4c4c4c</item>
+	<item type="drawable" name="menu_text_focus">#45a100</item>
+	<item type="drawable" name="black">#000000</item>
+    <drawable name="overall_base_color_white">#ffffff</drawable>
+    <!-- <drawable name="overall_base_color">#1bbc9b</drawable> -->
+    <drawable name="overall_base_color">#7bda6b</drawable>
+	<drawable name="abs_item_title_color">#ffffff</drawable>
+    <drawable name="abs_item_selected_background">#4f9a4d</drawable>
+    <drawable name="list_cache_color_hint">#00000000</drawable>
+    <drawable name="home_vertical_line_background_color">#c8c8c8</drawable>
+    <drawable name="home_vertical_line_null">#00000000</drawable>
+    <drawable name="overall_background">#ecf0f1</drawable>
+    <drawable name="base_overall_background">#f5f5f7</drawable>
+    <drawable name="from_bg">#ebe8e8</drawable>
+    <drawable name="overall_base_color_transparent">#00000000</drawable>
+    <drawable name="result_points">#c000ff00</drawable>
+    <drawable name="viewfinder_frame">#ff000000</drawable>
+    <drawable name="viewfinder_laser">#ffff0000</drawable>
+    <drawable name="viewfinder_mask">#60000000</drawable>
+    <drawable name="result_view">#b0000000</drawable>
+    <drawable name="possible_result_points">#c0ffff00</drawable>
+    <drawable name="curriculum_item_light">#eff3ea</drawable>
+    <drawable name="curriculum_item_dark">#dee7d1</drawable>
+    <drawable name="curriculum_item_week">#dfdfdd</drawable>
+    <drawable name="curriculum_item_clor">#97d16c</drawable>
+    <drawable name="ring_listview_bg">#dcdcdc</drawable>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--菜单所在位置-->
+    <attr name="position" format="enum">
+        <enum name="left_top" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="left_bottom" value="4" />
+        <enum name="right_bottom" value="8" />
+    </attr>
+    <!--半径 -->
+    <attr name="radius" format="dimension"/>
+    <declare-styleable name="SateliteMenu">
+        <attr name="position" />
+        <attr name="radius" />
+    </declare-styleable>
+
+    <!--日期选择-->
+    <declare-styleable name="PickerView">
+
+        <attr name="isLoop" format="boolean" />
+
+    </declare-styleable>
+
+
+<!-- 环形进度条-->
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="text" format="string"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="roundBackground" format="color"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <!-- 自定义折线图 -->
+    <declare-styleable name="LineChart">
+        <!--坐标轴颜色-->
+        <attr name="colorXY" format="color|reference"/>
+        <!--分割线颜色-->
+        <attr name="colorSPACE" format="color|reference"/>
+        <!--折线颜色-->
+        <attr name="colorLINE" format="color|reference"/>
+        <!--折线颜色-->
+        <attr name="colorTEXT" format="color|reference"/>
+        <!--分割线宽度-->
+        <attr name="widthSPACE" format="dimension|reference"/>
+        <!--折线宽度-->
+        <attr name="widthLINE" format="dimension|reference"/>
+        <attr name="widthTEXT" format="dimension|reference"/>
+        <!--坐标轴宽度-->
+        <attr name="widthXY" format="dimension|reference"/>
+        <!--分割线宽度-->
+        <attr name="sizeTEXT" format="dimension|reference"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="MZBannerView">
+        <attr name="open_mz_mode" format="boolean"/>
+        <attr name="canLoop" format="boolean"/>
+        <attr name="indicatorPaddingLeft" format="dimension"/>
+        <attr name="indicatorPaddingRight" format="dimension"/>
+        <attr name="indicatorAlign">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

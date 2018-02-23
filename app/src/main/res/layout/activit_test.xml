@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progress_round="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="测试页面"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="显示测试结果"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_test"
+        android:layout_below="@id/textView2"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_test"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn1"
+                android:text="获取当前时间（日期）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn2"
+                android:text="DatePickerDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+            android:id="@+id/btn8"
+            android:text="日历"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="语音识别Google自带"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:text="语音播放 MediaPlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/btn7"
+                android:text="暂停语音播放 MediaPlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/btn4"
+                android:text="使用PullToRefreshGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn5"
+                android:text="拖动条Seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/btn9"
+                android:text="日历、时间选择"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/btn10"
+                android:text="图片操作"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/btn11"
+                android:text="环形进度条"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_centerInParent="true"
+        android:layout_width="42dp"
+        android:layout_height="42dp">
+
+        <com.example.administrator.sample.view.RoundProgressBar
+            android:id="@+id/progress_round"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            progress_round:roundColor="@color/grey"
+            progress_round:roundProgressColor="@color/red"
+            progress_round:roundWidth="1dp"
+            progress_round:textSize="16sp"
+            progress_round:roundBackground="#b2ffffff"
+            progress_round:max="100"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@mipmap/play_down_btn"
+            android:layout_gravity="center"
+            />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
