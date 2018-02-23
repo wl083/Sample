@@ -20,4 +20,7 @@
     <dimen name="dimen_18sp">18sp</dimen>
     <dimen name="dimen_20dp">20dp</dimen>
     <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_45dp">45dp</dimen>
+
+    <dimen name="default_keyboard_height">267dp</dimen>
 </resources>

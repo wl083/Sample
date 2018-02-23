@@ -6,9 +6,17 @@
 
 
     <Button
+        android:id="@+id/btn_custom_view_line_chart_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="折线图"
-        android:onClick="lineChartView"
+        />
+
+    <Button
+        android:id="@+id/btn_custom_view_keyboard_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_custom_view_keyboard"
+        android:textAllCaps="false"
         />
 </LinearLayout>

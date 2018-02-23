@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.administrator.sample.base.BaseActivity;
 import com.example.administrator.sample.images.PicturesActivity;
 import com.example.administrator.sample.practice.PracticeActivity;
 import com.example.administrator.sample.practicetwo.PracticeTwoActivity;
@@ -22,7 +23,7 @@ import com.example.administrator.sample.view.CustomViewActivity;
  * 4、列表/文本滚动时，导航栏显示/y隐藏
  */
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener{
 
     private Button btn1,btn2,btn3,btn4,btn5,btn6,btn7;
 
@@ -128,8 +129,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void startActivity(Class<?> cls){
-        Intent intent = new Intent(this,cls);
-        startActivity(intent);
-    }
+//    private void startActivity(Class<?> cls){
+//        Intent intent = new Intent(this,cls);
+//        startActivity(intent);
+//    }
 }

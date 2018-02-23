@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Created by shizi on 2017/8/11.
  */
 
-public class LineChartViewActivity extends AppCompatActivity{
+public class LineChartViewActivity extends AppCompatActivity {
 
     private ArrayList<String> datesString;
     private ArrayList<Float> datesFloat;

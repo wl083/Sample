@@ -57,6 +57,10 @@
         <activity android:name=".view.CustomViewActivity"/>
         <activity android:name=".view.custom.LineChartViewActivity"/>
 
+        <!--    软键盘和 radiobutton 切换问题   -->
+        <activity android:name=".activity.KeyBoardRadioButtonSwitchActivity"
+            android:theme="@style/BaseTheme"
+            android:windowSoftInputMode="adjustResize"/>
     </application>
 
 
